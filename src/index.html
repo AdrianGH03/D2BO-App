@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-----THIS IS THE REDIRECT LINK ( MAIN PROGRAM )------>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D2BO</title>
+    <link rel="stylesheet" href="stylebounty.css">
+    <link rel="icon" href="../Pictures/destiny2logo.jpg"/>
+</head>
+<body>
+  
+    <h1 class="errorMsg hidden"></h1>
+    <div class="title">
+      <div class="container hidden">
+        <div class="center">
+          <button class="btn signOutButton">
+            <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+              <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+              <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+            </svg>
+            <span>sign out</span>
+          </button>
+        </div>
+      </div>
+      <img src="" id="titleLogo" alt="">
+      <div class="title-user">
+        <span class="userName"></span>
+        <img src="" alt="" class="userPFP">
+      </div>
+    </div>
+
+    <div class="charButtons hidden"></div>
+
+      
+    <div class="mainContainer hidden">
+          <li class="category">
+            <ul class="subCat">
+              <h3 class="damtype hidden">DAMAGE</h3>
+              <li class="arc hidden">Arc 
+                <div class="arcImg"></div>
+              </li>
+              <li class="solar hidden">Solar 
+                <div class="solarImg"></div>
+              </li>
+              <li class="stasis hidden">Stasis
+                <div class="stasisImg"></div>
+              </li>
+              <li class="strand hidden">Strand
+                <div class="strandImg"></div>
+              </li>
+              <li class="void hidden">Void
+                <div class="voidImg"></div>
+              </li>
+            </ul>
+          </li>
+          <li class="category">
+            <ul class="subCat">
+              <h3 class="weapon hidden">WEAPON</h3>
+              <li class="sniper hidden">Sniper Rifle(s)
+                <div class="sniperImg"></div>
+              </li>
+              <li class="traceR hidden">Trace Rifle(s)
+                <div class="traceRImg"></div>
+              </li>
+              <li class="autoR hidden">Auto Rifle(s)
+                <div class="autoRImg"></div>
+              </li>
+              <li class="scoutR hidden">Scout Rifle(s)
+                <div class="scoutRImg"></div>
+              </li>
+              <li class="smg hidden">SMG/Submachine gun(s)
+                <div class="smgImg"></div>
+              </li>
+              <li class="mg hidden">Machine Gun(s)
+                <div class="mgImg"></div>
+              </li>
+              <li class="sword hidden">Sword(s)
+                <div class="swordImg"></div>
+              </li>
+              <li class="shotgun hidden">Shotgun(s)
+                <div class="shotgunImg"></div>
+              </li>
+              <li class="hc hidden">Hand Cannon(s)
+                <div class="hcImg"></div>
+              </li>
+              <li class="sidearm hidden">Sidearm(s)
+                <div class="sidearmImg"></div>
+              </li>
+              <li class="bow hidden">Bow(s)
+                <div class="bowImg"></div>
+              </li>
+              <li class="gl hidden">Grenade Launcher(Heavy and special)(s)
+                <div class="glImg"></div>
+              </li>
+              <li class="pulseR hidden">Pulse Rifle(s)
+                <div class="pulseRImg"></div>
+              </li>
+              <li class="linearFR hidden">Linear Fusion Rifle(s)
+                <div class="linearFRImg"></div>
+              </li>
+              <li class="fusionR hidden">Fusion Rifle(s)
+                <div class="fusionRImg"></div>
+              </li>
+              <li class="glaive hidden">Glaive(s)
+                <div class="glaiveImg"></div>
+              </li>
+              <li class="rl hidden">Rocket Launchers(s)
+                <div class="rlImg"></div>
+              </li>
+            </ul>
+          </li>
+          <li class="category">
+            <ul class="subCat">
+              <h3 class="weapSub hidden">SUBTYPE</h3>
+              <li class="kinetic hidden">Kinetic
+                <div class="kineticImg"></div>
+              </li>
+              <li class="energy hidden">Energy
+                <div class="energyImg"></div>
+              </li>
+              <li class="power hidden">Power
+                <div class="powerImg"></div>
+              </li>
+            </ul>
+          </li>
+            <li class="category">
+                <ul class="subCat">
+                  <h3 class="general hidden">GENERAL</h3>
+                  <li class="fallen hidden">Fallen
+                    <div class="fallenImg"></div>
+                  </li>
+                  <li class="hive hidden">Hive
+                    <div class="hiveImg"></div>
+                  </li>
+                  <li class="vex hidden">Vex
+                    <div class="vexImg"></div>
+                  </li>
+                  <li class="taken hidden">Taken
+                    <div class="takenImg"></div>
+                  </li>
+                  <li class="cabal hidden">Cabal
+                    <div class="cabalImg"></div>
+                  </li>
+                  <li class="scorn hidden">Scorn
+                    <div class="scornImg"></div>
+                  </li>
+                  <li class="gKill hidden">General Kill
+                    <div class="gKillImg"></div>
+                   </li>
+                   <li class="precision hidden">Precision
+                    <div class="precisionImg"></div>
+                    </li>
+                    <li class="oop hidden">Orbs of Power
+                      <div class="oopImg"></div>
+                      </li>
+                </ul>
+              </li>
+              <li class="category">
+                <ul class="subCat">
+                  <h3 class="ability hidden">ABILITY</h3>
+                  <li class="grenades hidden">Grenades 
+                    <div class="grenadesImg"></div>
+                  </li>
+                  <li class="super hidden">Super
+                    <div class="superImg"></div>
+                  </li>
+                  <li class="melee hidden">Melee
+                    <div class="meleeImg"></div>
+                  </li>
+                  <li class="finisher hidden">Finishers
+                    <div class="finisherImg"></div>
+                  </li>
+                </ul>
+              </li>
+              <li class="category">
+                  <ul class="subCat">
+                    <h3 class="misc hidden">MISC</h3>
+                    <li class="lostS hidden">Lost Sectors
+                        <div class="lostSImg"></div>
+                    </li>
+                    <li class="season hidden">Seasonal
+                      <div class="seasonImg"></div>
+                  </li>
+                  <li class="vanguard hidden">Vanguard
+                    <div class="vanguardImg"></div>
+                  </li>
+                    <li class="crucible hidden">Crucible
+                        <div class="crucibleImg"></div>
+                    </li>
+                    <li class="gambit hidden">Gambit
+                        <div class="gambitImg"></div>
+                    </li>
+                    <li class="doe hidden">Dares of Eternity
+                        <div class="doeImg"></div>
+                    </li>
+                    <li class="too hidden">Trials of Osiris
+                      <div class="tooImg"></div>
+                    </li>
+                    <li class="nessus hidden">Nessus
+                        <div class="nessusImg"></div>
+                    </li>
+                    <li class="europa hidden">Europa
+                      <div class="europaImg"></div>
+                    </li>
+                    <li class="edz hidden">EDZ
+                      <div class="edzImg"></div>
+                    </li>
+                     <li class="neomuna hidden">Neomuna
+                       <div class="neomunaImg"></div>
+                     </li>
+                     <li class="moon hidden">Moon
+                       <div class="moonImg"></div>
+                     </li>
+                     <li class="cosmodrome hidden">Cosmodrome
+                      <div class="cosmodromeImg"></div>
+                      </li>
+                      <li class="tworld hidden">Throne World
+                        <div class="tworldImg"></div>
+                    </li>
+                    <li class="raid hidden">Raids
+                      <div class="raidImg"></div>
+                    </li>
+                      <li class="pe hidden">Public event
+                          <div class="peImg"></div>
+                      </li>
+                      <li class="tov hidden">Terminal Overload
+                        <div class="tovImg"></div>
+                      </li>
+                      <li class="patrol hidden">Patrols
+                          <div class="patrolImg"></div>
+                      </li>
+                        <li class="unlisted hidden">Unlisted
+                          <div class="unlistedImg"></div>
+                      </li>
+                  </ul>
+              </li>
+        
+      </div>
+      <h1 id="noBounty"></h1>
+      <div class="loading-container hidden">
+        <div class="loading"></div>
+        <div id="loading-text"><img src="../Pictures/d2logo.png" alt=""></div>
+        <span id="link">Please Wait...</span>
+      </div>
+      <div class="tooltipContainer"></div>
+      <ul class="usageGuide hidden">
+        <li><h1>USAGE GUIDE</h1></li>
+          <ul>
+            <li class="usageStart">Click a character to get a started</li>
+            <br>
+            <li class="even">Clicking a bounty icon will highlight any overlaps in <br>other sub-categories</li>
+            <br>
+            <li class="odd">Bounty Subcategories with the most icons are recommended to be done first.</li>
+            <br>
+            <li class="even">Hovering over a bounty will display it's objective for you.</li>
+            <br>
+          </ul>
+      </ul>
+
+    <script type="module" src="../modules/scriptbounty.js"></script>
+    <script type="module" src="../modules/getMembershipTypeAndId.js"></script>
+    <script type="module" src="../modules/test.js"></script>
+    <script type="module" src="../modules/getCharacterId.js"></script>
+    <script type="module" src="../modules/findItemHash.js"></script>
+    <script type="module" src="../modules/getBountyArray.js"></script>
+    <script type="module" src="../modules/findItemInstanceId.js"></script>
+    <script type="module" src="../modules/bountyNames.js"></script>
+</body>
+</html>
+
+
