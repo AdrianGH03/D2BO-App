@@ -30,4 +30,4 @@ Languages used
 
 DEMO
 
-[Imgur](https://imgur.com/Q0eXVBi)
+<img src="https://i.imgur.com/Q0eXVBi.mp4" alt="demo">
