@@ -31,4 +31,5 @@ Languages used
 DEMO
 
 
-[img]https://i.imgur.com/bSnPcfH.gif[/img]
+
+<img src='https://i.imgur.com/bSnPcfH.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
