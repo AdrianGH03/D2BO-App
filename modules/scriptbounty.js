@@ -1,3 +1,6 @@
+//This was just a beginner project for me to learn API's. At the time of making this, I did not know any backend frameworks/libraries/languages and storing confidential info in the front-end as seen here, is a risk. 
+// But speaking with the people over @ the Bungie API discord, they assured that there is not much risk to exposing API keys, etc. while using the Bungie API. But I now understand it is better to hide all info here and place it
+// on the backend and how to do so.
 
 ///////////////////////////
 // Obtains code for access token using query parameters
