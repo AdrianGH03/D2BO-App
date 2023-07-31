@@ -31,4 +31,4 @@ Languages used
 DEMO
 
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/eNMPfl9" data-context="false" ><a href="//imgur.com/a/eNMPfl9"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+[img]https://i.imgur.com/bSnPcfH.gif[/img]
