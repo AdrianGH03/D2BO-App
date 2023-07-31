@@ -30,4 +30,5 @@ Languages used
 
 DEMO
 
-<img src="https://i.imgur.com/Q0eXVBi.mp4" alt="demo">
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/eNMPfl9" data-context="false" ><a href="//imgur.com/a/eNMPfl9"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
