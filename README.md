@@ -30,6 +30,9 @@ Languages used
 
 DEMO
 
-<img src='https://github.com/MiguelGGithub/D2BO-App/assets/122931039/d7e77290-2f26-4317-af64-3d588e745322' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
+
+https://github.com/MiguelGGithub/D2BO-App/assets/122931039/4ad0968d-9e13-4960-8cc8-09de13b421f2
 
 
